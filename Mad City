@@ -1,0 +1,1085 @@
+local ScreenGui = Instance.new("ScreenGui")
+local LoadingGUi = Instance.new("ImageLabel")
+local Loading = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local LoadingStatus = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local HexagonMiddle = Instance.new("ImageLabel")
+local MiddleGUI = Instance.new("ImageLabel")
+local Settings = Instance.new("TextButton")
+local Teleports = Instance.new("TextButton")
+local Functions = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local Destroy = Instance.new("TextButton")
+local HexagonLeftDown = Instance.new("ImageLabel")
+local HexagonLeftDownChild = Instance.new("ImageLabel")
+local HexagonDown = Instance.new("ImageLabel")
+local HexagonDownChild = Instance.new("ImageLabel")
+local HexagonTop = Instance.new("ImageLabel")
+local HexagonTopChild = Instance.new("ImageLabel")
+local HexagonTopRight = Instance.new("ImageLabel")
+local HexagonTopRightChild = Instance.new("ImageLabel")
+local ExitMainGui = Instance.new("TextButton")
+local FunctionsGUI = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local ExitFunctions = Instance.new("TextButton")
+local CashFarm = Instance.new("TextButton")
+local AutoArrest = Instance.new("TextButton")
+local InfAmmoMadcity = Instance.new("TextButton")
+local GiveTools = Instance.new("TextButton")
+local SettingsGUI = Instance.new("ImageLabel")
+local SettingsChild = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local DraggableSettings = Instance.new("Frame")
+local DestroyGUI = Instance.new("TextButton")
+local DragAll = Instance.new("TextButton")
+local ExitSettings = Instance.new("TextButton")
+local TeleportsGUI = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local ExitTeleports = Instance.new("TextButton")
+local Bank = Instance.new("TextButton")
+local Casino = Instance.new("TextButton")
+local CarShop = Instance.new("TextButton")
+local GunShop = Instance.new("TextButton")
+local Jewlery = Instance.new("TextButton")
+local CrimBase = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local DEstroyGUI = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local ExitDestroy = Instance.new("TextButton")
+local DestroyPrison = Instance.new("TextButton")
+local DestroyLasers = Instance.new("TextButton")
+local DestroyCity = Instance.new("TextButton")
+local Open = Instance.new("Frame")
+local Openbutt = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LoadingGUi.Name = "LoadingGUi"
+LoadingGUi.Parent = ScreenGui
+LoadingGUi.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+LoadingGUi.BackgroundTransparency = 1
+LoadingGUi.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+LoadingGUi.Position = UDim2.new(0.393967867, 0, 0.288178742, 0)
+LoadingGUi.Size = UDim2.new(0, 343, 0, 343)
+LoadingGUi.Image = "rbxassetid://1215684307"
+LoadingGUi.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+Loading.Name = "Loading"
+Loading.Parent = LoadingGUi
+Loading.BackgroundColor3 = Color3.new(1, 1, 1)
+Loading.BackgroundTransparency = 1
+Loading.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+Loading.Size = UDim2.new(0, 329, 0, 329)
+Loading.Image = "rbxassetid://1215684307"
+Loading.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+TextLabel.Parent = Loading
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.0334346518, 0, 0.820668697, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "By Godly Nate#6588"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextSize = 12
+
+LoadingStatus.Name = "LoadingStatus"
+LoadingStatus.Parent = Loading
+LoadingStatus.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+LoadingStatus.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+LoadingStatus.BorderSizePixel = 4
+LoadingStatus.Position = UDim2.new(0.197568387, 0, 0.589665651, 0)
+LoadingStatus.Size = UDim2.new(0, 200, 0, 50)
+LoadingStatus.Font = Enum.Font.SourceSansBold
+LoadingStatus.Text = "Loading"
+LoadingStatus.TextColor3 = Color3.new(0, 0, 0)
+LoadingStatus.TextSize = 30
+
+TextLabel_2.Parent = Loading
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0.197568387, 0, 0.115501523, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Trash City"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextSize = 30
+
+Frame.Parent = Loading
+Frame.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame.Position = UDim2.new(0.349544078, 0, 0.258358657, 0)
+Frame.Size = UDim2.new(0, 100, 0, 3)
+
+HexagonMiddle.Name = "HexagonMiddle"
+HexagonMiddle.Parent = ScreenGui
+HexagonMiddle.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+HexagonMiddle.BackgroundTransparency = 1
+HexagonMiddle.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+HexagonMiddle.Position = UDim2.new(0.393967867, 0, 0.288178772, 0)
+HexagonMiddle.Size = UDim2.new(0, 343, 0, 343)
+HexagonMiddle.Image = "rbxassetid://1215684307"
+HexagonMiddle.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+MiddleGUI.Name = "MiddleGUI"
+MiddleGUI.Parent = HexagonMiddle
+MiddleGUI.BackgroundColor3 = Color3.new(1, 1, 1)
+MiddleGUI.BackgroundTransparency = 1
+MiddleGUI.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+MiddleGUI.Size = UDim2.new(0, 329, 0, 329)
+MiddleGUI.Image = "rbxassetid://1215684307"
+MiddleGUI.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+Settings.Name = "Settings"
+Settings.Parent = MiddleGUI
+Settings.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Settings.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Settings.BorderSizePixel = 5
+Settings.Position = UDim2.new(0.258358687, 0, 0.741641283, 0)
+Settings.Size = UDim2.new(0, 157, 0, 34)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.new(0, 0, 0)
+Settings.TextSize = 20
+
+Teleports.Name = "Teleports"
+Teleports.Parent = MiddleGUI
+Teleports.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Teleports.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Teleports.BorderSizePixel = 5
+Teleports.Position = UDim2.new(0.261398196, 0, 0.434650421, 0)
+Teleports.Size = UDim2.new(0, 157, 0, 34)
+Teleports.Font = Enum.Font.SourceSans
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.new(0, 0, 0)
+Teleports.TextSize = 20
+
+Functions.Name = "Functions"
+Functions.Parent = MiddleGUI
+Functions.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Functions.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Functions.BorderSizePixel = 5
+Functions.Position = UDim2.new(0.261398196, 0, 0.279635221, 0)
+Functions.Size = UDim2.new(0, 157, 0, 34)
+Functions.Font = Enum.Font.SourceSans
+Functions.Text = "Functions"
+Functions.TextColor3 = Color3.new(0, 0, 0)
+Functions.TextSize = 20
+
+TextLabel_3.Parent = MiddleGUI
+TextLabel_3.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.227963507, 0, 0.0638297871, 0)
+TextLabel_3.Size = UDim2.new(0, 178, 0, 46)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Trash City"
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextSize = 25
+
+Frame_2.Parent = TextLabel_3
+Frame_2.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.202247202, 0, 0.869565189, 0)
+Frame_2.Size = UDim2.new(0, 106, 0, 6)
+
+Destroy.Name = "Destroy"
+Destroy.Parent = MiddleGUI
+Destroy.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Destroy.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Destroy.BorderSizePixel = 5
+Destroy.Position = UDim2.new(0.258358687, 0, 0.589665592, 0)
+Destroy.Size = UDim2.new(0, 157, 0, 34)
+Destroy.Font = Enum.Font.SourceSans
+Destroy.Text = "Destroy"
+Destroy.TextColor3 = Color3.new(0, 0, 0)
+Destroy.TextSize = 20
+
+HexagonLeftDown.Name = "HexagonLeftDown"
+HexagonLeftDown.Parent = HexagonMiddle
+HexagonLeftDown.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+HexagonLeftDown.BackgroundTransparency = 1
+HexagonLeftDown.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+HexagonLeftDown.Position = UDim2.new(0.752347112, 0, 0.434732199, 0)
+HexagonLeftDown.Size = UDim2.new(0, 343, 0, 343)
+HexagonLeftDown.Image = "rbxassetid://1215684307"
+HexagonLeftDown.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+HexagonLeftDownChild.Name = "HexagonLeftDownChild"
+HexagonLeftDownChild.Parent = HexagonLeftDown
+HexagonLeftDownChild.BackgroundColor3 = Color3.new(1, 1, 1)
+HexagonLeftDownChild.BackgroundTransparency = 1
+HexagonLeftDownChild.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+HexagonLeftDownChild.Size = UDim2.new(0, 329, 0, 329)
+HexagonLeftDownChild.Image = "rbxassetid://1215684307"
+HexagonLeftDownChild.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+HexagonDown.Name = "HexagonDown"
+HexagonDown.Parent = HexagonMiddle
+HexagonDown.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+HexagonDown.BackgroundTransparency = 1
+HexagonDown.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+HexagonDown.Position = UDim2.new(-0.00438559055, 0, 0.877074957, 0)
+HexagonDown.Size = UDim2.new(0, 343, 0, 343)
+HexagonDown.Image = "rbxassetid://1215684307"
+HexagonDown.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+HexagonDownChild.Name = "HexagonDownChild"
+HexagonDownChild.Parent = HexagonDown
+HexagonDownChild.BackgroundColor3 = Color3.new(1, 1, 1)
+HexagonDownChild.BackgroundTransparency = 1
+HexagonDownChild.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+HexagonDownChild.Size = UDim2.new(0, 329, 0, 329)
+HexagonDownChild.Image = "rbxassetid://1215684307"
+HexagonDownChild.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+HexagonTop.Name = "HexagonTop"
+HexagonTop.Parent = HexagonMiddle
+HexagonTop.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+HexagonTop.BackgroundTransparency = 1
+HexagonTop.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+HexagonTop.Position = UDim2.new(-0.00121812266, 0, -0.872425318, 0)
+HexagonTop.Size = UDim2.new(0, 343, 0, 343)
+HexagonTop.Image = "rbxassetid://1215684307"
+HexagonTop.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+HexagonTopChild.Name = "HexagonTopChild"
+HexagonTopChild.Parent = HexagonTop
+HexagonTopChild.BackgroundColor3 = Color3.new(1, 1, 1)
+HexagonTopChild.BackgroundTransparency = 1
+HexagonTopChild.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+HexagonTopChild.Size = UDim2.new(0, 329, 0, 329)
+HexagonTopChild.Image = "rbxassetid://1215684307"
+HexagonTopChild.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+HexagonTopRight.Name = "HexagonTopRight"
+HexagonTopRight.Parent = HexagonMiddle
+HexagonTopRight.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+HexagonTopRight.BackgroundTransparency = 1
+HexagonTopRight.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+HexagonTopRight.Position = UDim2.new(0.754645228, 0, -0.417783231, 0)
+HexagonTopRight.Size = UDim2.new(0, 343, 0, 343)
+HexagonTopRight.Image = "rbxassetid://1215684307"
+HexagonTopRight.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+HexagonTopRightChild.Name = "HexagonTopRightChild"
+HexagonTopRightChild.Parent = HexagonTopRight
+HexagonTopRightChild.BackgroundColor3 = Color3.new(1, 1, 1)
+HexagonTopRightChild.BackgroundTransparency = 1
+HexagonTopRightChild.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+HexagonTopRightChild.Size = UDim2.new(0, 329, 0, 329)
+HexagonTopRightChild.Image = "rbxassetid://1215684307"
+HexagonTopRightChild.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+ExitMainGui.Name = "ExitMainGui"
+ExitMainGui.Parent = HexagonMiddle
+ExitMainGui.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+ExitMainGui.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+ExitMainGui.BorderSizePixel = 5
+ExitMainGui.Position = UDim2.new(0.848072588, 0, 0.45392105, 0)
+ExitMainGui.Size = UDim2.new(0, 30, 0, 30)
+ExitMainGui.Font = Enum.Font.SourceSansBold
+ExitMainGui.Text = "X"
+ExitMainGui.TextColor3 = Color3.new(1, 0, 0)
+ExitMainGui.TextSize = 20
+
+FunctionsGUI.Name = "FunctionsGUI"
+FunctionsGUI.Parent = ScreenGui
+FunctionsGUI.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+FunctionsGUI.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+FunctionsGUI.BorderSizePixel = 5
+FunctionsGUI.Position = UDim2.new(0.76543206, 0, 0.238329247, 0)
+FunctionsGUI.Size = UDim2.new(0, 270, 0, 475)
+FunctionsGUI.Visible = false
+
+TextLabel_4.Parent = FunctionsGUI
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.Position = UDim2.new(0.129629627, 0, -0.00842105225, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Functions"
+TextLabel_4.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_4.TextSize = 25
+
+Frame_3.Parent = FunctionsGUI
+Frame_3.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.270370364, 0, 0.0727947652, 0)
+Frame_3.Size = UDim2.new(0, 123, 0, 6)
+
+ExitFunctions.Name = "ExitFunctions"
+ExitFunctions.Parent = FunctionsGUI
+ExitFunctions.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+ExitFunctions.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+ExitFunctions.BorderSizePixel = 5
+ExitFunctions.Position = UDim2.new(0.888888896, 0, -0.00088943541, 0)
+ExitFunctions.Size = UDim2.new(0, 30, 0, 30)
+ExitFunctions.Font = Enum.Font.SourceSansBold
+ExitFunctions.Text = "X"
+ExitFunctions.TextColor3 = Color3.new(1, 0, 0)
+ExitFunctions.TextSize = 20
+
+CashFarm.Name = "Cash Farm"
+CashFarm.Parent = FunctionsGUI
+CashFarm.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+CashFarm.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+CashFarm.BorderSizePixel = 5
+CashFarm.Position = UDim2.new(0.199999988, 0, 0.159772307, 0)
+CashFarm.Size = UDim2.new(0, 161, 0, 28)
+CashFarm.Font = Enum.Font.SourceSans
+CashFarm.Text = "Cash Farm"
+CashFarm.TextColor3 = Color3.new(0, 0, 0)
+CashFarm.TextSize = 20
+
+AutoArrest.Name = "Auto Arrest"
+AutoArrest.Parent = FunctionsGUI
+AutoArrest.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+AutoArrest.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+AutoArrest.BorderSizePixel = 5
+AutoArrest.Position = UDim2.new(0.200000003, 0, 0.254509151, 0)
+AutoArrest.Size = UDim2.new(0, 161, 0, 28)
+AutoArrest.Font = Enum.Font.SourceSans
+AutoArrest.Text = "Auto Arrest"
+AutoArrest.TextColor3 = Color3.new(0, 0, 0)
+AutoArrest.TextSize = 20
+
+InfAmmoMadcity.Name = "Inf Ammo Madcity"
+InfAmmoMadcity.Parent = FunctionsGUI
+InfAmmoMadcity.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+InfAmmoMadcity.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+InfAmmoMadcity.BorderSizePixel = 5
+InfAmmoMadcity.Position = UDim2.new(0.199999988, 0, 0.340824932, 0)
+InfAmmoMadcity.Size = UDim2.new(0, 161, 0, 28)
+InfAmmoMadcity.Font = Enum.Font.SourceSans
+InfAmmoMadcity.Text = "Inf Ammo"
+InfAmmoMadcity.TextColor3 = Color3.new(0, 0, 0)
+InfAmmoMadcity.TextSize = 20
+
+GiveTools.Name = "Give Tools"
+GiveTools.Parent = FunctionsGUI
+GiveTools.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+GiveTools.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+GiveTools.BorderSizePixel = 5
+GiveTools.Position = UDim2.new(0.199999988, 0, 0.431351244, 0)
+GiveTools.Size = UDim2.new(0, 161, 0, 28)
+GiveTools.Font = Enum.Font.SourceSans
+GiveTools.Text = "Give Tools"
+GiveTools.TextColor3 = Color3.new(0, 0, 0)
+GiveTools.TextSize = 20
+
+SettingsGUI.Name = "SettingsGUI"
+SettingsGUI.Parent = ScreenGui
+SettingsGUI.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+SettingsGUI.BackgroundTransparency = 1
+SettingsGUI.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+SettingsGUI.Position = UDim2.new(0.715207458, 0, 0.287129432, 0)
+SettingsGUI.Size = UDim2.new(0, 343, 0, 343)
+SettingsGUI.Visible = false
+SettingsGUI.Image = "rbxassetid://1215684307"
+SettingsGUI.ImageColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+
+SettingsChild.Name = "SettingsChild"
+SettingsChild.Parent = SettingsGUI
+SettingsChild.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingsChild.BackgroundTransparency = 1
+SettingsChild.Position = UDim2.new(0.0198891573, 0, 0.0179839842, 0)
+SettingsChild.Size = UDim2.new(0, 329, 0, 329)
+SettingsChild.Image = "rbxassetid://1215684307"
+SettingsChild.ImageColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+
+TextLabel_5.Parent = SettingsGUI
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0.206588924, 0, 0.0529854223, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Settings"
+TextLabel_5.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_5.TextSize = 25
+
+Frame_4.Parent = SettingsGUI
+Frame_4.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.317376107, 0, 0.175434411, 0)
+Frame_4.Size = UDim2.new(0, 123, 0, 6)
+
+DraggableSettings.Name = "Draggable Settings"
+DraggableSettings.Parent = SettingsGUI
+DraggableSettings.BackgroundColor3 = Color3.new(1, 1, 1)
+DraggableSettings.BackgroundTransparency = 1
+DraggableSettings.Position = UDim2.new(0.186588928, 0, 0.218658894, 0)
+DraggableSettings.Size = UDim2.new(0, 207, 0, 193)
+
+DestroyGUI.Name = "DestroyGUI"
+DestroyGUI.Parent = SettingsGUI
+DestroyGUI.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DestroyGUI.BorderColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+DestroyGUI.BorderSizePixel = 5
+DestroyGUI.Position = UDim2.new(0.285714298, 0, 0.387755096, 0)
+DestroyGUI.Size = UDim2.new(0, 147, 0, 28)
+DestroyGUI.Font = Enum.Font.SourceSans
+DestroyGUI.Text = "Destroy GUI"
+DestroyGUI.TextColor3 = Color3.new(0, 0, 0)
+DestroyGUI.TextSize = 20
+
+DragAll.Name = "DragAll"
+DragAll.Parent = SettingsGUI
+DragAll.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DragAll.BorderColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+DragAll.BorderSizePixel = 5
+DragAll.Position = UDim2.new(0.285714298, 0, 0.268221617, 0)
+DragAll.Size = UDim2.new(0, 147, 0, 28)
+DragAll.Font = Enum.Font.SourceSans
+DragAll.Text = "Every GUI Draggable"
+DragAll.TextColor3 = Color3.new(0, 0, 0)
+DragAll.TextSize = 20
+
+ExitSettings.Name = "ExitSettings"
+ExitSettings.Parent = SettingsGUI
+ExitSettings.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+ExitSettings.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+ExitSettings.BorderSizePixel = 5
+ExitSettings.Position = UDim2.new(0.818918049, 0, 0.442259252, 0)
+ExitSettings.Size = UDim2.new(0, 30, 0, 30)
+ExitSettings.Font = Enum.Font.SourceSansBold
+ExitSettings.Text = "X"
+ExitSettings.TextColor3 = Color3.new(1, 0, 0)
+ExitSettings.TextSize = 20
+
+TeleportsGUI.Name = "TeleportsGUI"
+TeleportsGUI.Parent = ScreenGui
+TeleportsGUI.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+TeleportsGUI.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+TeleportsGUI.BorderSizePixel = 5
+TeleportsGUI.Position = UDim2.new(0.76543206, 0, 0.238329247, 0)
+TeleportsGUI.Size = UDim2.new(0, 270, 0, 475)
+TeleportsGUI.Visible = false
+
+TextLabel_6.Parent = TeleportsGUI
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Position = UDim2.new(0.129629627, 0, -0.00842105225, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Teleports"
+TextLabel_6.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_6.TextSize = 25
+
+Frame_5.Parent = TeleportsGUI
+Frame_5.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.270370364, 0, 0.0727947652, 0)
+Frame_5.Size = UDim2.new(0, 123, 0, 6)
+
+ExitTeleports.Name = "ExitTeleports"
+ExitTeleports.Parent = TeleportsGUI
+ExitTeleports.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+ExitTeleports.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+ExitTeleports.BorderSizePixel = 5
+ExitTeleports.Position = UDim2.new(0.888888896, 0, -0.00088943541, 0)
+ExitTeleports.Size = UDim2.new(0, 30, 0, 30)
+ExitTeleports.Font = Enum.Font.SourceSansBold
+ExitTeleports.Text = "X"
+ExitTeleports.TextColor3 = Color3.new(1, 0, 0)
+ExitTeleports.TextSize = 20
+
+Bank.Name = "Bank"
+Bank.Parent = TeleportsGUI
+Bank.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Bank.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Bank.BorderSizePixel = 5
+Bank.Position = UDim2.new(0.199999988, 0, 0.159772307, 0)
+Bank.Size = UDim2.new(0, 161, 0, 28)
+Bank.Font = Enum.Font.SourceSans
+Bank.Text = "Bank"
+Bank.TextColor3 = Color3.new(0, 0, 0)
+Bank.TextSize = 20
+
+Casino.Name = "Casino"
+Casino.Parent = TeleportsGUI
+Casino.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Casino.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Casino.BorderSizePixel = 5
+Casino.Position = UDim2.new(0.200000003, 0, 0.254509151, 0)
+Casino.Size = UDim2.new(0, 161, 0, 28)
+Casino.Font = Enum.Font.SourceSans
+Casino.Text = "Casino"
+Casino.TextColor3 = Color3.new(0, 0, 0)
+Casino.TextSize = 20
+
+CarShop.Name = "CarShop"
+CarShop.Parent = TeleportsGUI
+CarShop.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+CarShop.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+CarShop.BorderSizePixel = 5
+CarShop.Position = UDim2.new(0.199999988, 0, 0.340824932, 0)
+CarShop.Size = UDim2.new(0, 161, 0, 28)
+CarShop.Font = Enum.Font.SourceSans
+CarShop.Text = "Car Shop"
+CarShop.TextColor3 = Color3.new(0, 0, 0)
+CarShop.TextSize = 20
+
+GunShop.Name = "GunShop"
+GunShop.Parent = TeleportsGUI
+GunShop.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+GunShop.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+GunShop.BorderSizePixel = 5
+GunShop.Position = UDim2.new(0.199999988, 0, 0.431351244, 0)
+GunShop.Size = UDim2.new(0, 161, 0, 28)
+GunShop.Font = Enum.Font.SourceSans
+GunShop.Text = "Gun Shop"
+GunShop.TextColor3 = Color3.new(0, 0, 0)
+GunShop.TextSize = 20
+
+Jewlery.Name = "Jewlery"
+Jewlery.Parent = TeleportsGUI
+Jewlery.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Jewlery.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Jewlery.BorderSizePixel = 5
+Jewlery.Position = UDim2.new(0.199999988, 0, 0.517667055, 0)
+Jewlery.Size = UDim2.new(0, 161, 0, 28)
+Jewlery.Font = Enum.Font.SourceSans
+Jewlery.Text = "Jewlery"
+Jewlery.TextColor3 = Color3.new(0, 0, 0)
+Jewlery.TextSize = 20
+
+CrimBase.Name = "CrimBase"
+CrimBase.Parent = TeleportsGUI
+CrimBase.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+CrimBase.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+CrimBase.BorderSizePixel = 5
+CrimBase.Position = UDim2.new(0.199999988, 0, 0.606088102, 0)
+CrimBase.Size = UDim2.new(0, 161, 0, 28)
+CrimBase.Font = Enum.Font.SourceSans
+CrimBase.Text = "Crim Base"
+CrimBase.TextColor3 = Color3.new(0, 0, 0)
+CrimBase.TextSize = 20
+
+TextLabel_7.Parent = TeleportsGUI
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.Position = UDim2.new(0.125925928, 0, 0.829473674, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Press teleports multiple times if it doesnt work first try"
+TextLabel_7.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_7.TextSize = 13
+
+DEstroyGUI.Name = "DEstroyGUI"
+DEstroyGUI.Parent = ScreenGui
+DEstroyGUI.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DEstroyGUI.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+DEstroyGUI.BorderSizePixel = 5
+DEstroyGUI.Position = UDim2.new(0.76543206, 0, 0.237100765, 0)
+DEstroyGUI.Size = UDim2.new(0, 270, 0, 475)
+DEstroyGUI.Visible = false
+
+TextLabel_8.Parent = DEstroyGUI
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.Position = UDim2.new(0.129629627, 0, -0.00842105225, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Destroy"
+TextLabel_8.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_8.TextSize = 25
+
+Frame_6.Parent = DEstroyGUI
+Frame_6.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.270370364, 0, 0.0727947652, 0)
+Frame_6.Size = UDim2.new(0, 123, 0, 6)
+
+ExitDestroy.Name = "ExitDestroy"
+ExitDestroy.Parent = DEstroyGUI
+ExitDestroy.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+ExitDestroy.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+ExitDestroy.BorderSizePixel = 5
+ExitDestroy.Position = UDim2.new(0.888888896, 0, -0.00088943541, 0)
+ExitDestroy.Size = UDim2.new(0, 30, 0, 30)
+ExitDestroy.Font = Enum.Font.SourceSansBold
+ExitDestroy.Text = "X"
+ExitDestroy.TextColor3 = Color3.new(1, 0, 0)
+ExitDestroy.TextSize = 20
+
+DestroyPrison.Name = "DestroyPrison"
+DestroyPrison.Parent = DEstroyGUI
+DestroyPrison.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DestroyPrison.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+DestroyPrison.BorderSizePixel = 5
+DestroyPrison.Position = UDim2.new(0.199999988, 0, 0.159772307, 0)
+DestroyPrison.Size = UDim2.new(0, 161, 0, 28)
+DestroyPrison.Font = Enum.Font.SourceSans
+DestroyPrison.Text = "Prison"
+DestroyPrison.TextColor3 = Color3.new(0, 0, 0)
+DestroyPrison.TextSize = 20
+
+DestroyLasers.Name = "Destroy Lasers"
+DestroyLasers.Parent = DEstroyGUI
+DestroyLasers.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DestroyLasers.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+DestroyLasers.BorderSizePixel = 5
+DestroyLasers.Position = UDim2.new(0.200000003, 0, 0.254509151, 0)
+DestroyLasers.Size = UDim2.new(0, 161, 0, 28)
+DestroyLasers.Font = Enum.Font.SourceSans
+DestroyLasers.Text = "Lasers"
+DestroyLasers.TextColor3 = Color3.new(0, 0, 0)
+DestroyLasers.TextSize = 20
+
+DestroyCity.Name = "Destroy City"
+DestroyCity.Parent = DEstroyGUI
+DestroyCity.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+DestroyCity.BorderColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+DestroyCity.BorderSizePixel = 5
+DestroyCity.Position = UDim2.new(0.200000003, 0, 0.351351231, 0)
+DestroyCity.Size = UDim2.new(0, 161, 0, 28)
+DestroyCity.Font = Enum.Font.SourceSans
+DestroyCity.Text = "City"
+DestroyCity.TextColor3 = Color3.new(0, 0, 0)
+DestroyCity.TextSize = 20
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Open.BorderColor3 = Color3.new(0.137255, 0.141176, 0.141176)
+Open.BorderSizePixel = 5
+Open.Position = UDim2.new(0, 0, 0.745181203, 0)
+Open.Size = UDim2.new(0, 136, 0, 44)
+
+Openbutt.Name = "Openbutt"
+Openbutt.Parent = Open
+Openbutt.BackgroundColor3 = Color3.new(0.223529, 0.223529, 0.223529)
+Openbutt.BorderSizePixel = 0
+Openbutt.Size = UDim2.new(0, 136, 0, 44)
+Openbutt.Font = Enum.Font.SourceSansBold
+Openbutt.Text = "Open"
+Openbutt.TextColor3 = Color3.new(0, 0, 0)
+Openbutt.TextSize = 30
+-- Scripts:
+Open.Visible = false
+FunctionsGUI.Visible = false
+TeleportsGUI.Visible = false
+DEstroyGUI.Visible = false
+LoadingGUi.Visible = false
+--Hexagons
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = false
+HexagonMiddle.Visible = false
+HexagonTop.Visible = false
+HexagonTopRight.Visible = false
+
+--Loading
+wait(2)
+LoadingGUi.Visible = true
+LoadingStatus.Text = 'Loading.'
+wait(0.5)
+LoadingStatus.Text = 'Loading..'
+HexagonDown.Visible = true
+wait(0.5)
+LoadingStatus.Text = 'Loading...'
+HexagonLeftDown.Visible = true
+HexagonDown.Visible = false
+wait(0.5)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+LoadingStatus.Text = 'Loading.'
+wait(0.5)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+LoadingStatus.Text = 'Loading..'
+wait(0.5)
+HexagonTop.Visible = false
+LoadingStatus.Text = 'Loading...'
+HexagonDown.Visible = true
+wait(0.5)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+LoadingStatus.Text = 'Loading.'
+wait(0.5)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+LoadingStatus.Text = 'Loading..'
+wait(0.5)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+LoadingStatus.Text = 'Loading...'
+wait(0.5)
+HexagonTop.Visible = false
+HexagonDown.Visible = true
+LoadingStatus.Text = 'Loading.'
+wait(0.5)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+
+LoadingStatus.Text = 'Loading..'
+wait(0.5)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+
+LoadingStatus.Text = 'Loading...'
+wait(0.5)
+HexagonTop.Visible = true
+HexagonTopRight.Visible = false
+wait(0.5)
+HexagonTop.Visible = false
+LoadingStatus.Text = 'Loaded!'
+wait(2)
+LoadingGUi.Visible = false
+
+
+HexagonMiddle.Visible = true
+HexagonMiddle.Active = true
+HexagonMiddle.Draggable = true
+HexagonDown.Visible = true
+HexagonLeftDown.Visible = true
+HexagonTopRight.Visible = true
+HexagonTop.Visible = true
+
+
+Functions.MouseButton1Click:connect(function()
+	FunctionsGUI.Visible = false
+	TeleportsGUI.Visible = false
+	SettingsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	
+	
+	HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+wait(0.2)
+HexagonTop.Visible = false
+wait(0.2)
+FunctionsGUI.Visible = true
+	
+end)
+
+Teleports.MouseButton1Click:connect(function()
+	FunctionsGUI.Visible = false
+	TeleportsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	SettingsGUI.Visible = false
+	
+	
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+wait(0.2)
+HexagonTop.Visible = false
+wait(0.2)
+TeleportsGUI.Visible = true
+end)
+
+
+Destroy.MouseButton1Click:connect(function()
+	FunctionsGUI.Visible = false
+	TeleportsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	SettingsGUI.Visible = false
+	HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+wait(0.2)
+HexagonTop.Visible = false
+wait(0.2)
+DEstroyGUI.Visible = true
+end)
+
+Settings.MouseButton1Click:connect(function()
+	SettingsGUI.Visible = false
+FunctionsGUI.Visible = false
+TeleportsGUI.Visible = false
+DEstroyGUI.Visible = false
+
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonTopRight.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonTop.Visible = true
+wait(0.2)
+HexagonTop.Visible = false
+wait(0.2)
+SettingsGUI.Visible = true
+end)
+
+ExitTeleports.MouseButton1Click:connect(function()
+	FunctionsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	
+	
+	HexagonTop.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = true
+HexagonTop.Visible = false
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+TeleportsGUI.Visible = false
+end)
+
+ExitDestroy.MouseButton1Click:connect(function()
+	
+	FunctionsGUI.Visible = false
+	TeleportsGUI.Visible = false
+	HexagonTop.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = true
+HexagonTop.Visible = false
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+DEstroyGUI.Visible = false
+end)
+
+ExitFunctions.MouseButton1Click:connect(function()
+	TeleportsGUI.Visible = false
+	DEstroyGUI.Visible = false
+
+	HexagonTop.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = true
+HexagonTop.Visible = false
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+FunctionsGUI.Visible = false
+end)
+
+
+DestroyGUI.MouseButton1Click:connect(function()
+	ScreenGui:Destroy()
+end)
+
+
+DragAll.MouseButton1Click:connect(function()
+FunctionsGUI.Active = true
+FunctionsGUI.Draggable = true
+	DEstroyGUI.Active = true
+	DEstroyGUI.Draggable = true
+SettingsGUI.Active = true
+SettingsGUI.Draggable = true
+	TeleportsGUI.Active = true
+	TeleportsGUI.Draggable = true
+end)
+
+
+ExitSettings.MouseButton1Click:connect(function()
+	
+	TeleportsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	FunctionsGUI.Visible = false
+	HexagonTop.Visible = true
+wait(0.2)
+HexagonTopRight.Visible = true
+HexagonTop.Visible = false
+wait(0.2)
+HexagonTopRight.Visible = false
+HexagonLeftDown.Visible = true
+wait(0.2)
+HexagonLeftDown.Visible = false
+HexagonDown.Visible = true
+wait(0.2)
+HexagonDown.Visible = false
+SettingsGUI.Visible = false
+end)
+
+DestroyLasers.MouseButton1Click:connect(function()
+	game.Workspace.Ignore.WorldObjects.Lasers:Destroy()
+game.Workspace.JewelryStore.Lasers:Destroy()
+game.Workspace.JewelryStore.SpinLaser2:Destroy()
+game.Workspace.JewelryStore.SlideLaser:Destroy()
+	game.Workspace.JewelryStore.SpinLaser:Destroy()
+end)
+DestroyPrison.MouseButton1Click:connect(function()
+	game.Workspace.Prison:Destroy()
+end)
+local plr = game.Players.LocalPlayer
+local char = game.Players.LocalPlayer.Character
+Bank.MouseButton1Click:connect(function()
+	char.HumanoidRootPart.Position = Vector3.new(692.542908, 24.8893394,445.545685)
+end)
+
+Jewlery.MouseButton1Click:connect(function()
+	char.HumanoidRootPart.Position = Vector3.new(-204.785858,24.5781498,723.530945)
+end)
+
+GunShop.MouseButton1Click:connect(function()
+	char.HumanoidRootPart.Position = Vector3.new(-1616.53979,41.8001175,687.908203)
+end)
+
+CarShop.MouseButton1Click:connect(function()
+	char.HumanoidRootPart.Position = Vector3.new(216.656052, 24.7832451, -614.467163)
+end)
+
+Casino.MouseButton1Click:connect(function()
+	char.HumanoidRootPart.Position = Vector3.new(1789.11084,24.7000046,695.744507)
+end)
+
+AutoArrest.MouseButton1Click:connect(function()
+	_G.run = true -- set to false to stop script
+
+while _G.run do
+game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Handcuffs)
+game.ReplicatedStorage.Event:FireServer("Equip", game.Players.LocalPlayer.Character, game.Players.LocalPlayer.Character.Handcuffs.Handle)
+for i,v in pairs(game.Players:GetChildren()) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
+wait(0.25)
+game.ReplicatedStorage.Event:FireServer("Arrest", v)
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0,0)
+end
+wait(0.25)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -1000,0)
+game.Players.LocalPlayer.Character:BreakJoints()
+wait(20)
+end
+end)
+
+CashFarm.MouseButton1Click:connect(function()
+local w = game:GetService("Workspace")
+	local ObjectSelection = w:WaitForChild("ObjectSelection")
+	for _,v in pairs (ObjectSelection:GetChildren()) do 
+		if v.Name == "CashRegister" then 
+			if v:FindFirstChild("SmashCash") then 
+				local Event = v.SmashCash.SmashCash.Event
+				Event:FireServer()
+			end
+		end
+	if v.Name == "ATM" then 
+		if v:FindFirstChild("ATM") then
+			local Event = v.ATM.ATM.Event
+			Event:FireServer()
+		end
+	end
+	if v.Name == "Cash" then 
+		if v:FindFirstChild("Cash") then 
+			local Event = v.Cash.Cash.Event
+			Event:FireServer()
+		end
+	end
+	if v.Name == "DiamondBox" then 
+		if v:FindFirstChild("SmashCash") then 
+			local Event = v.SmashCash.SmashCash.Event
+			Event:FireServer()
+		end
+	end
+	if v.Name == "Safe" then 
+		if v:FindFirstChild("SmashCash") then 
+			local Event = v.SmashCash.SmashCash.Event
+			Event:FireServer()
+		end
+	end
+	if v.Name == "SlotMachine" then 
+		if v:FindFirstChild("SlotMachine") then 
+			local Event = v.SlotMachine.SlotMachine.Event
+			Event:FireServer()
+		end
+	end
+	end
+end)
+
+
+InfAmmoMadcity.MouseButton1Click:connect(function()
+	for i,v in next, debug.getregistry() do
+    if typeof(v) == "function" then
+        if debug.getupvalue(v, "Ammo") then
+            debug.setupvalue(v, "Ammo", math.huge);
+        elseif debug.getupvalue(v, "FireRate") then
+            debug.setupvalue(v, "FireRate", 0);
+        elseif debug.getupvalue(v, "Damage") then
+            debug.setupvalue(v, "Damage", math.huge);
+        elseif debug.getupvalue(v, "Spread") then
+            debug.setupvalue(v, "Spread", math.huge);
+        elseif debug.getupvalue(v, "Recoil") then
+            debug.setupvalue(v, "Recoil", math.huge);
+        end;
+    end;
+end;
+end)
+
+GiveTools.MouseButton1Click:connect(function()
+	local ev = game.Workspace.ObjectSelection.Grenade.Grenade.Grenade['Event']
+ev:FireServer()
+local shotty = game.Workspace.ObjectSelection.Shotgun.Shotgun.Shotgun['Event']
+shotty:FireServer()
+local uziithink = game.Workspace.ObjectSelection.MP5.MP5.MP5['Event']
+uziithink:FireServer()
+local knife = game.Workspace.ObjectSelection.TEC9.TEC9.TEC9['Event']
+knife:FireServer()
+end)
+
+ExitMainGui.MouseButton1Click:connect(function()
+	FunctionsGUI.Visible = false
+	DEstroyGUI.Visible = false
+	TeleportsGUI.Visible = false
+	SettingsGUI.Visible = false
+	HexagonMiddle.Visible = false
+	Open.Visible = true
+end)
+
+Openbutt.MouseButton1Click:connect(function()
+	Open.Visible = false
+	HexagonMiddle.Visible = true
+	HexagonDown.Visible = true
+	HexagonLeftDown.Visible = true
+	HexagonTopRight.Visible = true
+	HexagonTop.Visible = true
+end)
+
+DestroyCity.MouseButton1Click:connect(function()
+	game.Workspace.City:Destroy()
+end)
+
+CrimBase.MouseButton1Click:connect(function()
+	game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2138, 25, 392)
+end)
