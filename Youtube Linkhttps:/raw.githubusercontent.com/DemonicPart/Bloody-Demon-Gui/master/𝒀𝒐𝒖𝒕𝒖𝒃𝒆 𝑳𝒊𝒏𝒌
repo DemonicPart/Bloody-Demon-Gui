@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Youtube",true))()
