@@ -266,3 +266,13 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Big%20Paintball%20Synxen'),true))()
   end)
+
+Synapse:Button("World Of Magic Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/WOM%20auto%20farm'),true))()
+  end)
