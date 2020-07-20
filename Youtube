@@ -10,6 +10,18 @@ var.TimePosition = 0
 var:Play()
 print("test")
 
+--Music Player
+
+Scripts:Box("Play Music (ID)", function(id)
+
+var = Instance.new('Sound')
+var.SoundId = "rbxassetid://"..tostring(id)
+var.Looped = false
+var.Parent = game.workspace
+var.TimePosition = 1
+var:Play()
+end)
+
 Scripts:Button("Click TP", function(variable)
   if variable then
     mouse1press = true
