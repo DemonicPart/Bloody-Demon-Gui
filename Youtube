@@ -2,16 +2,6 @@ local LIB = loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPa
 local on = false
 local Scripts = LIB:CreateSection("Scripts") 
 
-var = Instance.new('Sound')
-var.SoundId = "rbxassetid://"..3025470671
-var.Looped = false
-var.Parent = game.workspace
-var.TimePosition = 0
-var:Play()
-print("test")
-
---Music Player
-
 Scripts:Box("Play Music (ID)", function(id)
 
 var = Instance.new('Sound')
@@ -21,6 +11,14 @@ var.Parent = game.workspace
 var.TimePosition = 1
 var:Play()
 end)
+
+var = Instance.new('Sound')
+var.SoundId = "rbxassetid://"..3025470671
+var.Looped = false
+var.Parent = game.workspace
+var.TimePosition = 0
+var:Play()
+print("test")
 
 Scripts:Button("Click TP", function(variable)
   if variable then
