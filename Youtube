@@ -113,6 +113,16 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Infinite%20Yield'),true))()
   end)
 
+Admin:Button("Infinite Yield 2", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Inf%20Yield%202'),true))()
+  end)
+
 local Games = LIB:CreateSection("Games") 
 
 Games:Button("Rocitizens OP Gui", function(variable)
