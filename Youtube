@@ -224,7 +224,7 @@ Synapse:Button("Synapse Jailbreak Gui", function(variable)
 end
 on = mouse1press
 
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/OP%20Jailbreak%20Synapse%20Script'),true))()
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
   end)
 
 Synapse:Button("OP Synapse Horrific Housing", function(variable)
