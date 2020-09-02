@@ -240,7 +240,7 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Giant%20Scythe'),true))()
   end)
     
-          UTG:Button("Master Hand", function(variable)
+          UTG:Button("Master Hand R6", function(variable)
   if variable then
     mouse1press = true
   else
