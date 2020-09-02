@@ -97,7 +97,159 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Infinite%20Yield'),true))()
   end)
+  
+  local UTG = LIB:CreateSection("UTG")
 
+UTG:Button("Dark Wizard R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Dark%20Wizard'),true))()
+  end)
+  
+  UTG:Button("Dark Angel R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Dark%20Angel'),true))()
+  end)
+  
+    UTG:Button("The Overlord R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/The%20Overlord'),true))()
+  end)
+  
+      UTG:Button("Black Goku R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Black%20Goku'),true))()
+  end)
+       
+       UTG:Button("Golden Knight R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Golden%20Knight'),true))()
+  end)
+        
+        UTG:Button("One Punch Man R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/One%20Punch%20Man'),true))()
+  end)
+  
+          UTG:Button("Weed Smoker R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Smoke%20Weed'),true))()
+  end)
+ 
+           UTG:Button("Sans R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Sans'),true))()
+  end)
+       
+       UTG:Button("Snowy R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Snowman'),true))()
+  end)
+        
+        UTG:Button("Super Sayan R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Super%20Sayan'),true))()
+  end)
+  
+          UTG:Button("Excalibur (Blue) R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Excalibur'),true))()
+  end)
+    
+          UTG:Button("Night Magician R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Night%20Magician'),true))()
+  end)
+    
+          UTG:Button("Rainbow Fury R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Rainbow%20Fury'),true))()
+  end)
+    
+          UTG:Button("Giant Scythe R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Giant%20Scythe'),true))()
+  end)
+    
+          UTG:Button("Master Hand", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Master%20Hand'),true))()
+  end)
+                
 local Games = LIB:CreateSection("Games") 
 
 Games:Button("Rocitizens OP Gui", function(variable)
