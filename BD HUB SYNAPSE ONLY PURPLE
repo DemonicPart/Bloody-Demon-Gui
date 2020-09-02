@@ -1,0 +1,289 @@
+--Click Right Control To Open
+--Made By Godly Nate#6588
+
+local LIB = loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/BD%20Gui%20Background%20(Purple)",true))()
+local on = false
+local Scripts = LIB:CreateSection("Scripts") 
+
+Scripts:Button("Click TP", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Ctrl%20Tp",true))()
+  end)
+
+Scripts:Button("IP Logger", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Ip%20Leak",true))()
+  end)
+
+Scripts:Button("Noclip (e)", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Noclip%20(e)",true))()
+  end)
+
+Scripts:Button("Infinite Jump", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Inf%20Jump",true))()
+  end)
+
+Scripts:Button("Dumb Shit Animations", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Dumb%20Shit%20Animations",true))()
+  end)
+
+Scripts:Button("Accesory Orbit", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Accesory%20Orbit",true))()
+  end)
+
+Scripts:Button("10K+ Zoom", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Zoom%20Distance%2010k'),true))()
+  end)
+
+local Admin = LIB:CreateSection("Admin") 
+
+Admin:Button("Reviz Admin", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/reviz%20admin'),true))()
+  end)
+
+Admin:Button("Infinite Yield", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Infinite%20Yield'),true))()
+  end)
+
+local Games = LIB:CreateSection("Games") 
+
+Games:Button("Rocitizens OP Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Rocitizens'),true))()
+  end)
+
+Games:Button("Jailbreak Op Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Jailbreak%20Script'),true))()
+  end)
+
+Games:Button("Murder Mystery 2 Op Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/MM2'),true))()
+  end)
+
+Games:Button("Arsenal Aimbot & Esp", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Aimbot'),true))()
+  end)
+
+Games:Button("Tower Of Hell Trash Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('hhttps://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Trash%20Tower%20Of%20Hell%20Gui'),true))()
+  end)
+
+Games:Button("Op Mad City Gui (Blood City)", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Mad%20City'),true))()
+  end)
+
+local Synapse = LIB:CreateSection("Syn X") 
+
+Synapse:Button("Op Synapse Arsenal Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
+  end)
+
+Synapse:Button("Op Synapse MM2 Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/MM2%20Synapse'),true))()
+  end)
+
+Synapse:Button("Op Synapse Island Royale Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Island%20Royale%20Gui'),true))()
+  end)
+
+Synapse:Button("Synapse Jailbreak Gui", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
+  end)
+
+Synapse:Button("OP Synapse Horrific Housing", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/OP%20Horrific%20Housing%20Script'),true))()
+  end)
+
+Synapse:Button("OP Synapse Ragdoll Engine", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/OP%20ragdoll%20Engine%20Synapse'),true))()
+  end)
+
+Synapse:Button("FPS Booster", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Better%20fps%20syn%201'),true))()
+  end)
+
+
+Synapse:Button("Big Paintball Fucker", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Big%20Paintball%20Synxen'),true))()
+  end)
+
+local Credits = LIB:CreateSection("Credits") 
+
+
+Credits:Button("Main Creator:", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+
+Credits:Button("Godly Nate#6588", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+Credits:Button("-------------------", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+Credits:Button("Colour Designer:", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+
+Credits:Button("ezra#0789", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
