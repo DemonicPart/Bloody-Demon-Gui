@@ -27,7 +27,7 @@ New = function(Object, Parent, Name, Data)
 		Object[Index] = Value
 	end
 	Object.Parent = Parent
-	Object.Name = Name
+	Object.Name = Name 
 	return Object
 end
 
