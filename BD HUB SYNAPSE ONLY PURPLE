@@ -130,14 +130,14 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/The%20Overlord'),true))()
   end)
   
-      UTG:Button("Black Goku R6", function(variable)
+      UTG:Button("Sanctus Tempus R6", function(variable)
   if variable then
     mouse1press = true
   else
 end
 on = mouse1press
 
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Black%20Goku'),true))()
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Sanctus20Tempus'),true))()
   end)
        
        UTG:Button("Golden Knight R6", function(variable)
