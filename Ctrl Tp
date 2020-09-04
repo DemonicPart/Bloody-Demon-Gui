@@ -8,8 +8,8 @@ Plr.Character:MoveTo(Mouse.Hit.p)
 end)
 --]]
     game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "CTRL click tp",
-Text = "Hold Ctrl then press click to a place you want to teleport to it'll move you there so that you dont get found out.",
+Title = "Click tp",
+Text = "Hold Ctrl then click where you want to teleport, It's made in a unique way to make it hard to detect and lower chance of bans.",
 Duration = 6,
     })
 local speed = 100 -- set this lower to make it slower
