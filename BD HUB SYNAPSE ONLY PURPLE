@@ -439,3 +439,15 @@ Credits:Button("ezra#0789", function(variable)
 end
 on = mouse1press
   end)
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Open BD Hub",
+Text = "Click R-Ctrl To Open.",
+Duration = 1,
+    })
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "BD Hub Discord",
+Text = "Make Sure To Join Our Discord! Discord.io/bdhub!",
+Duration = 4,
+    })
