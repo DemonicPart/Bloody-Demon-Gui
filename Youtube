@@ -428,3 +428,15 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/WOM%20auto%20farm'),true))()
   end)
+  
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "BD Hub",
+Text = "Click R-Ctrl To Open.",
+Duration = 1,
+    })
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "BD Hub Discord",
+Text = "Make Sure To Join Our Discord! Discord.io/bdhub!",
+Duration = 4,
+    })
