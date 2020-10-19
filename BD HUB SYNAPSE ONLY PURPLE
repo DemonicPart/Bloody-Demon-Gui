@@ -331,7 +331,7 @@ Synapse:Button("Op Synapse MM2 Gui", function(variable)
 end
 on = mouse1press
 
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/MM2%20Synapse'),true))()
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
   end)
 
 Synapse:Button("Op Synapse Island Royale Gui", function(variable)
