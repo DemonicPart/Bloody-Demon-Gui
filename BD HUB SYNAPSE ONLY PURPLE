@@ -394,6 +394,16 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Big%20Paintball%20Synxen'),true))()
   end)
+  
+    Synapse:Button("Shinobi Life 2", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Shinobi%20Life%202'),true))()
+  end)
 
 local Credits = LIB:CreateSection("Credits") 
 
