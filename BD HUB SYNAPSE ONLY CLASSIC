@@ -252,16 +252,6 @@ on = mouse1press
                 
 local Games = LIB:CreateSection("Games") 
 
-Games:Button("Rocitizens OP Gui", function(variable)
-  if variable then
-    mouse1press = true
-  else
-end
-on = mouse1press
-
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Rocitizens'),true))()
-  end)
-
 Games:Button("Jailbreak Op Gui", function(variable)
   if variable then
     mouse1press = true
