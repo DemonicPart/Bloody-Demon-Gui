@@ -339,16 +339,6 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
   end)
 
-Synapse:Button("Op Synapse Island Royale Gui", function(variable)
-  if variable then
-    mouse1press = true
-  else
-end
-on = mouse1press
-
- loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Island%20Royale%20Gui'),true))()
-  end)
-
 Synapse:Button("Synapse Jailbreak Gui", function(variable)
   if variable then
     mouse1press = true
