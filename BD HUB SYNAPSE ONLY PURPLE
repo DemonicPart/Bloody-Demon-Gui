@@ -289,7 +289,7 @@ Games:Button("Tower Of Hell Trash Gui", function(variable)
 end
 on = mouse1press
 
- loadstring(game:HttpGet(('hhttps://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Trash%20Tower%20Of%20Hell%20Gui'),true))()
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Trash%20Tower%20Of%20Hell%20Gui'),true))()
   end)
 
 Games:Button("Op Mad City Gui (Blood City)", function(variable)
