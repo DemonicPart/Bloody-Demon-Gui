@@ -274,6 +274,26 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Poison%20Magic'),true))()
   end)
+  
+              UTG:Button("Inferno Wizard R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Inferno'),true))()
+  end)
+  
+                UTG:Button("Solar God R6", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Solar%20God'),true))()
+  end)
    
 local Games = LIB:CreateSection("Games") 
 
