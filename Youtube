@@ -265,7 +265,7 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Master%20Hand'),true))()
   end)
   
-            UTG:Button("Poison Lightning Wizard", function(variable)
+            UTG:Button("Poison Lightning Wizard R6", function(variable)
   if variable then
     mouse1press = true
   else
