@@ -264,6 +264,16 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Master%20Hand'),true))()
   end)
+  
+            UTG:Button("Poison Lightning Wizard", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Poison%20Magic'),true))()
+  end)
    
 local Games = LIB:CreateSection("Games") 
 
