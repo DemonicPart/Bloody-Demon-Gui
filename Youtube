@@ -439,6 +439,51 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Shinobi%20Life%202'),true))()
   end)
   
+  local Credits = LIB:CreateSection("Credits") 
+
+
+Credits:Button("Main Creator (Scripts & Other Stuff):", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+
+Credits:Button("Godly Nate#6588", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+Credits:Button("-------------------", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+Credits:Button("Colour Designer & Size Helper:", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+
+
+Credits:Button("ezra#0789", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+  end)
+  
     game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "BD Hub",
 Text = "Click R-Ctrl To Open.",
@@ -450,3 +495,10 @@ Title = "BD Hub Discord",
 Text = "Make Sure To Join Our Discord! Discord.io/bdhub!",
 Duration = 4,
     })
+    
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "BD Hub Discord",
+Text = "Join the Alt Bot Server! Discord.io/altbot!",
+Duration = 4,
+    })
+
