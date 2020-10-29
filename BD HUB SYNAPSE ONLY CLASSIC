@@ -387,7 +387,7 @@ on = mouse1press
 local Credits = LIB:CreateSection("Credits") 
 
 
-Credits:Button("Main Creator:", function(variable)
+Credits:Button("Main Creator (Scripts & Other Stuff):", function(variable)
   if variable then
     mouse1press = true
   else
@@ -412,7 +412,7 @@ end
 on = mouse1press
   end)
 
-Credits:Button("Colour Designer:", function(variable)
+Credits:Button("Colour Designer & Size Helper:", function(variable)
   if variable then
     mouse1press = true
   else
@@ -438,5 +438,11 @@ Duration = 1,
     game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "BD Hub Discord",
 Text = "Make Sure To Join Our Discord! Discord.io/bdhub!",
+Duration = 4,
+    })
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "BD Hub Discord",
+Text = "Join the Alt Bot Server! Discord.io/altbot!",
 Duration = 4,
     })
