@@ -396,7 +396,7 @@ on = mouse1press
   end)
 
 
-Credits:Button("Godly Nate#6588", function(variable)
+Credits:Button("BD#8314", function(variable)
   if variable then
     mouse1press = true
   else
