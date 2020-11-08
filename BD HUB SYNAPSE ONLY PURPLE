@@ -97,6 +97,16 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Infinite%20Yield'),true))()
   end)
+  
+    Admin:Button("Shatter Vest", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Shattervest%20admin'),true))()
+  end)
 
   local UTG = LIB:CreateSection("UTG")
 
