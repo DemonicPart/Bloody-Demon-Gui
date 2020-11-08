@@ -498,6 +498,6 @@ Duration = 4,
 
     game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "BD Hub Discord",
-Text = "Join the Altbot Discord (Script bot coming soon)! Discord.io/altbot!",
+Text = "Join the Altbot & Scriptbot Discord! Discord.io/altbot!",
 Duration = 4,
     })
