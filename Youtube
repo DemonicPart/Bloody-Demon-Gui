@@ -449,7 +449,20 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Shinobi%20Life%202'),true))()
   end)
   
-  local Credits = LIB:CreateSection("Credits") 
+local Special = LIB:CreateSection("Special") 
+
+    Special:Button("Special", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Building'),true))()
+  end)
+  
+
+local Credits = LIB:CreateSection("Credits") 
 
 
 Credits:Button("Main Creator (Scripts & Other Stuff):", function(variable)
@@ -459,7 +472,6 @@ Credits:Button("Main Creator (Scripts & Other Stuff):", function(variable)
 end
 on = mouse1press
   end)
-
 
 Credits:Button("BD#8314", function(variable)
   if variable then
