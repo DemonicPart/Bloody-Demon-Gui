@@ -451,7 +451,7 @@ on = mouse1press
   
 local Special = LIB:CreateSection("Special") 
 
-    Special:Button("Special", function(variable)
+    Special:Button("Building", function(variable)
   if variable then
     mouse1press = true
   else
