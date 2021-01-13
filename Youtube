@@ -460,6 +460,16 @@ on = mouse1press
 
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Building'),true))()
   end)
+
+    Special:Button("Discord Emoji Chat :joy:", function(variable)
+  if variable then
+    mouse1press = true
+  else
+end
+on = mouse1press
+
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Emoji%20Chat'),true))()
+  end)
    
 
 local Credits = LIB:CreateSection("Credits") 
