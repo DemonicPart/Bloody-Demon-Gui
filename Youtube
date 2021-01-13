@@ -461,7 +461,7 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Building'),true))()
   end)
 
-    Special:Button("Discord Emoji Chat :joy:", function(variable)
+    Special:Button("Emoji Chat", function(variable)
   if variable then
     mouse1press = true
   else
