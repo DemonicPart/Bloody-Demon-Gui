@@ -429,3 +429,9 @@ clone.PlaceholderText = '';
 focused = false;
 end)
 end)
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "How to use",
+Text = "Write in the chat : and a letter the emoji starts on for example :s and you'll see emojis you can use to finish put another : and it'll look like this :joy:",
+Duration = 20,
+    })
