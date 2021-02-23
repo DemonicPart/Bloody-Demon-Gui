@@ -20,6 +20,6 @@ loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_
 
     game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Code",
-Text = "The code to the script is : gotta love jesus",
-Duration = 10,
+Text = "join discord.gg/Gf3jJym to know the code",
+Duration = 30,
     })
