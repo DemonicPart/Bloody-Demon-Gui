@@ -389,7 +389,7 @@ on = mouse1press
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/DemonicPart/Bloody-Demon-Gui/master/Arsenal%20Synapse'),true))()
   end)
 
-Synapse:Button("Synapse Jailbreak Autorob GUI", function(variable)
+Synapse:Button("Synapse Jailbreak Gui", function(variable)
   if variable then
     mouse1press = true
   else
